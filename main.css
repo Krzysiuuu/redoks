@@ -1,27 +1,4 @@
 
-::-webkit-scrollbar{
-    width:10px;
-    height:10px;
-   background-color: rgba(0,0,0,0.2);
-}
-::-webkit-scrollbar:hover{
-    background-color: rgba(0,0,0,0.3);
-}
-::-webkit-resizer{
-    -webkit-border-radius:4px;
-    background-color: rgba(255,255,255,0.5);
-}
-::-webkit-scrollbar-thumb{
-    min-height:8pm;
-    min-width:8pm;
-    background-color: rgba(0,0,0,0.5);
-}
-::-webkit-scrollbar-thumb:hover{
-    background-color: rgba(0,0,0,0.6);
-}
-::-webkit-scrollbar-thumb:active{
-    background-color: rgba(0,0,0,0.7);
-}
 
 body {
 	background: url(images/chemia2.jpg) no-repeat center center fixed; 
@@ -67,13 +44,9 @@ h2, h3, h4, h5, h6 {
 	margin-bottom: 5px;
 }
 
-
-a {
-	outline: 0;
-	}
-
-a img {
-	border: 0px; 
+a:hover, a:active {
+	background-color: rgba(207,92,63,0.5);
+	color: #fff;
 	text-decoration: none;
 }
 
@@ -83,13 +56,8 @@ a:link, a:visited {
 	text-decoration: none;
 }
 
-a:hover, a:active {
-	background-color: rgba(207,92,63,0.5);
-	color: #fff;
-	text-decoration: none;
-}
 
-   
+
 .header nav {
 	background: rgba(0,0,0,0.3);
 	font-size: 1.143em;
@@ -102,9 +70,9 @@ a:hover, a:active {
 	-webkit-border-radius: 5px;
 }
 	
-.header nav ul {
-	list-style: none; 
-	margin: 0 auto;
+span.headerr {
+margin-right: 80%;
+
 }
 
 .header nav ul li {
@@ -119,18 +87,9 @@ a:hover, a:active {
 	padding: 5px 23px;
 	text-decoration: none;
 }
-.header nav a:hover, .header nav a:active,
-.header nav .active a:link, .header nav .active a:visited {
-	background-color: rgba(207,92,63,0.5);
-	color: #fff;
-	text-shadow: none !important;
-}
-	
-.header nav li a {
-	border-radius: 5px;
-	-moz-border-radius: 5px;
-	-webkit-border-radius: 5px;
-}
+
+
+
 
 .header img {
 	width: 30%;
@@ -138,35 +97,30 @@ a:hover, a:active {
 	margin: 3% 0;
 }
 
+
 .mainContent {
 	overflow: hidden;
 	line-height: 25px;
 	border-radius: 5px;
-	-moz-border-radius: 5px;
+
 	-webkit-border-radius: 5px;
 }
 
 .content-1 {
 	  background-color: rgba(255,255,255,0.8);	border-radius: 5px;
 	-moz-border-radius: 5px;
-	-webkit-border-radius: 5px;	
+
 	padding: 3% 5%;	
 	margin-bottom: 3%;
 }
 
-.content-2 {
-	  background-color: rgba(255,255,255,0.8);	border-radius: 5px;
-	-moz-border-radius: 5px;
-	-webkit-border-radius: 5px;	
-	padding: 3% 5%;
-}
 
 .content {
 	width: 68%;
 	float: left;
 	border-radius: 5px;
 	-moz-border-radius: 5px;
-	-webkit-border-radius: 5px;	
+
 }
 
 .post-from {
