@@ -71,6 +71,7 @@ a:link, a:visited {
 }
 
 .header nav ul li {
+	float: left;
 	display: inline; 
 }
 	
@@ -91,7 +92,7 @@ a:link, a:visited {
 
 
 .mainContent {
-	overflow: hidden;
+	overflow: hiddenS;
 	line-height: 25px;
 	border-radius: 5px;
 	-moz-border-radius: 5px;
