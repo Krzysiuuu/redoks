@@ -73,6 +73,8 @@ a:link, a:visited {
 .header nav ul li {
 	float: left; 
 	display: inline; 
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
 }
 	
 .header nav a:link, .header nav a:visited {
@@ -81,6 +83,8 @@ a:link, a:visited {
 	height: 30px;
 	padding: 5px 23px;
 	text-decoration: none;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
 }
 
 
@@ -88,6 +92,8 @@ a:link, a:visited {
 	width: 30%;
 	height: auto;
 	margin: 3% 0;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
 }
 
 
@@ -95,12 +101,16 @@ a:link, a:visited {
 	overflow: hidden;
 	line-height: 25px;
 	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
 }
 
 .content-1 {
 	  background-color: rgba(255,255,255,0.8);	border-radius: 5px;
 	padding: 3% 5%;	
 	margin-bottom: 3%;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
 }
 
 
@@ -108,6 +118,8 @@ a:link, a:visited {
 	width: 68%;
 	float: left;
 	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
 }
 
 .footer {
@@ -126,4 +138,6 @@ a:link, a:visited {
 .footer p {
 	width: 91%;
 	margin: 2% auto;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
 }
